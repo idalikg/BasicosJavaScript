@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>GEOLOCALIZACIÓN</title>
+		<meta name="description" content="Ejercio de geaolocalización"/>
+		<style>
+			.section1{
+				margin:1em;
+				color: darkslateblue;
+				font-size: 24px;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>API Geolocation</h1>
+		<button id='localizar'>OBTENER UBICACIÓN ACTUAL</button>
+		<section class="section1">
+			<div id="latitud"></div>
+			<div id="longitud"></div>
+		</section>
+
+		<section class="section2">
+			<div id='time'></div>
+			<div id='presicion'></div>
+			<div></div>
+		</section>
+
+		<!-- Script de verificación de soporte API -->
+		<script src="./es5/gps.js"></script>
+
+	</body>
+</html>
